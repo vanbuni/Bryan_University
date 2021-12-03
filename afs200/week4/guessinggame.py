@@ -11,6 +11,7 @@ while True:
         break
     elif not userGuess.isdigit():
         print("Only numbers allowed")
+
     else:
         userGuess = int(userGuess)
         attempts +=1
